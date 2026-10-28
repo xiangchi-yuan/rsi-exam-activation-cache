@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+results/
+.env*
+*.key
+*.pem
+author_private/
+frozen_reference/
+frozen_horizon_method/
+AIRTABLE_ANSWERS_LOCAL.md

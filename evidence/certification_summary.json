@@ -1,0 +1,43 @@
+{
+  "status": "frozen-method prototype evaluation; official RSI-Exam review pending",
+  "episodes": 36,
+  "all_cases_retained": true,
+  "backend": "actual isolated OCI verifier; current-only chroot policy; direct waited child CPU",
+  "reference_anchor_used": true,
+  "theoretical_upper_gain": 0.48942623948237546,
+  "methods": {
+    "baseline": {
+      "valid": 36,
+      "episodes": 36,
+      "all_valid": true,
+      "mean_log_gain": 0.0,
+      "geometric_speedup": 1.0,
+      "geometric_cost_reduction": 0.0,
+      "reward": 0.0,
+      "total_cost": 41662672,
+      "max_cpu_seconds": 0.6565189999999994
+    },
+    "reference": {
+      "valid": 36,
+      "episodes": 36,
+      "all_valid": true,
+      "mean_log_gain": 0.06650127461381794,
+      "geometric_speedup": 1.0687623263335346,
+      "geometric_cost_reduction": 0.0643382767517906,
+      "reward": 0.6,
+      "total_cost": 38454304,
+      "max_cpu_seconds": 1.4002230000000013
+    },
+    "horizon": {
+      "valid": 36,
+      "episodes": 36,
+      "all_valid": true,
+      "mean_log_gain": 0.05865220408180791,
+      "geometric_speedup": 1.060406371590621,
+      "geometric_cost_reduction": 0.05696530425407642,
+      "reward": 0.5291826758726896,
+      "total_cost": 38535800,
+      "max_cpu_seconds": 1.0653590000000026
+    }
+  }
+}

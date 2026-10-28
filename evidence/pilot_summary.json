@@ -1,0 +1,56 @@
+{
+  "status": "frozen",
+  "research_start_utc": "2026-10-28T01:40:35+00:00",
+  "research_end_and_method_freeze_utc": "2026-10-28T02:25:01.350338+00:00",
+  "productive_research_seconds": 2666.350338,
+  "experiments": {
+    "records": 60,
+    "records_with_failures": 1,
+    "registry": "experiments.json",
+    "log": "experiment_log.md",
+    "versions": "versions/",
+    "rejected": "Weak static fallback; initial illegal prefetch corrected and raw failures retained; most universal absolute values, endpoint-survival weighting, residual fits, deeper continuation sampling, redundant-cache cleanup and memory-order alternatives did not beat the selected full-contract train result. Compact nonlinear fitting improved supervised error but did not beat the best native train cost."
+  },
+  "limitations": [
+    "Private final v2 streams/seeds and reference/scoring were never accessed; final generalization and official reward are unmeasured.",
+    "Public templates cover24-118 nodes but the visible task has four program families; no arbitrary-graph global-optimality claim.",
+    "Value fitting approximates joint reconstruction/eviction and uses finite sampled public-law continuations; CPU-adaptive candidate interruption can cause small native-cost variation.",
+    "In-process timings include research replay and exclude startup; final selection/reporting uses complete current-only subprocess checks. These development tools are not claimed to be a formal container harness or official RSI acceptance."
+  ],
+  "remaining_headroom": [
+    "Per-node first-use-before-eviction survival estimators could improve on aggregate cache displacement features.",
+    "More efficient deterministic multi-step law planning and tighter joint host/device reconstruction could improve cost while retaining a complete cheap fallback.",
+    "The research budget is not exhausted; broad algorithm and critic experiments reached a plateau among the tested approaches. No unmeasured improvement is claimed."
+  ],
+  "selected_configuration": {
+    "entry": "solver.initialize",
+    "value_model": "phase_center_1.0.json",
+    "value_mix": 0.5,
+    "planning_budget": 1.0,
+    "allocation": "unique",
+    "tail": 24.0,
+    "choices": 6,
+    "rollout_steps": 0,
+    "critic_training_states": 4346,
+    "critic_features": 55,
+    "selection": "Best complete subprocess train72 geometric native cost"
+  },
+  "visible_results": {
+    "train": {
+      "episodes": 72,
+      "valid": 72,
+      "all_valid": true,
+      "total_cost": 46114512,
+      "geometric_cost_ratio": 0.9122975904574976,
+      "max_cpu_seconds": 0.6991829999999988
+    },
+    "validation": {
+      "episodes": 36,
+      "valid": 36,
+      "all_valid": true,
+      "total_cost": 18999408,
+      "geometric_cost_ratio": 0.9052846647917195,
+      "max_cpu_seconds": 0.6685140000000002
+    }
+  }
+}

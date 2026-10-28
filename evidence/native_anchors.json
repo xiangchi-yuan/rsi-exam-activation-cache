@@ -1,0 +1,14 @@
+{
+  "episodes": 36,
+  "metric": "geometric_mean_episode_work_cost",
+  "unit": "analytical work units per 96-request episode",
+  "direction": "lower is better",
+  "baseline": 880268.5619360795,
+  "published_sota": null,
+  "executed_original_reference": 823633.5995823378,
+  "theoretical_cost_lower_bound": 539585.2589312139,
+  "optimized_pilot": 830123.7954800985,
+  "source_dataset_sha256": "dccdeead08b87ce1b4aa913cb34734eb9764372b6af10af26cbe1cd642609ac5",
+  "bound_is_attainable_optimum": false,
+  "subset_selection": "all 36 predeclared cases; no filtering"
+}

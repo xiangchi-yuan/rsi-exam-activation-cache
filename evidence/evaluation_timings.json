@@ -1,0 +1,21 @@
+{
+  "measurement_environment": "Linux x86_64 CPU environment; the requested 8-vCPU/16GiB configuration is proposed, not the fixed quota of these measurements",
+  "includes_image_build": false,
+  "baseline": {
+    "train": {
+      "episodes": 72,
+      "all_valid": true,
+      "wall_seconds": 5.501422181725502,
+      "geometric_mean_cost": 433806.1270578476,
+      "max_policy_cpu_seconds": 0.284439
+    },
+    "validation": {
+      "episodes": 36,
+      "all_valid": true,
+      "wall_seconds": 2.8348405957221985,
+      "geometric_mean_cost": 425236.9662741744,
+      "max_policy_cpu_seconds": 0.2559730000000001
+    }
+  },
+  "harbor_frozen_method_reproduction_wall_seconds": 68.337252
+}
